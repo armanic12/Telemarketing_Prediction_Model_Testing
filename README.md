@@ -1,6 +1,21 @@
 # Telemarketing Campaign Response Prediction
 
-This project builds, optimizes, and evaluates predictive models to determine whether a prospective customer will respond positively to a telemarketing campaign. The dataset used originates from the [UCI Bank Marketing Dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing).
+This project builds, optimizes, and evaluates predictive models to determine whether a prospective customer will respond positively to a telemarketing campaign.  
+
+The dataset originates from the **[UCI Bank Marketing Dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing)**. This dataset contains information about direct marketing campaigns of a Portuguese banking institution, including client features and whether the client subscribed to a term deposit.
+
+---
+
+## Project Files
+
+- **Predictive_Modeling_Telemarketing.ipynb**  
+  Jupyter Notebook containing the full pipeline for preprocessing, model training, hyperparameter tuning, and evaluation.
+
+- **bank.csv**  
+  The raw dataset file used for training and testing the predictive models (sourced from UCI repository).
+
+- **README.md**  
+  Project documentation and results summary.
 
 ---
 
@@ -22,8 +37,6 @@ The KNN model is trained with different values of k to identify the best perform
 - Weighted Recall: **0.83**  
 - AUC: **0.705**
 
-Although the accuracy is acceptable, the recall for the positive class remains low, indicating limitations in detecting customers likely to respond positively.
-
 ---
 
 ## Decision Tree
@@ -34,8 +47,6 @@ A baseline `DecisionTreeClassifier` is fitted to the training data. This model p
 - Weighted Recall: **0.85**  
 - AUC: **0.674**
 
-The decision tree improves recall compared to KNN but produces a lower AUC, showing weaker ranking capability across classes.
-
 ---
 
 ## Support Vector Machine (SVM)
@@ -45,8 +56,6 @@ A linear SVM is optimized through `GridSearchCV` over different values of C. The
 - Weighted Precision: **0.88**  
 - Weighted Recall: **0.89**  
 - AUC: **0.790**
-
-The SVM classifier delivers robust precision and recall, making it a reliable option for balanced classification performance.
 
 ---
 
@@ -66,8 +75,6 @@ Performance metrics demonstrate the best results among all models:
 - Weighted Precision: **0.88**  
 - Weighted Recall: **0.90**  
 - AUC: **0.883**
-
-The neural network outperforms all other models, particularly in AUC, which is critical in ranking potential positive responders in imbalanced datasets.
 
 ---
 
