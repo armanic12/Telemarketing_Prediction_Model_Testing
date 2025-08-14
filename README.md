@@ -32,8 +32,6 @@ The dataset originates from the **[UCI Bank Marketing Dataset](https://archive.i
 - **Model Optimization**: Keras Tuner Hyperband, Grid Search Cross-Validation  
 - **Model Evaluation**: Accuracy, Precision, Recall, F1-score, ROC Curve, AUC  
 - **Visualization & Reporting**: Matplotlib, Seaborn, Confusion Matrices, ROC plots  
-- **Development Environment**: Jupyter Notebook  
-- **Version Control & Collaboration**: GitHub  
 
 ---
 
