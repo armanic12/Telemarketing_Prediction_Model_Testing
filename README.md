@@ -19,6 +19,24 @@ The dataset originates from the **[UCI Bank Marketing Dataset](https://archive.i
 
 ---
 
+## Tools and Skills Used
+
+- **Programming Language**: Python  
+- **Data Handling & Analysis**: Pandas, NumPy  
+- **Data Preprocessing**: One-Hot Encoding, MinMax Scaling, SMOTE (Synthetic Minority Over-sampling Technique)  
+- **Machine Learning Models**:  
+  - K-Nearest Neighbors (KNN)  
+  - Decision Tree Classifier  
+  - Support Vector Machine (SVM) with GridSearchCV  
+  - Feedforward Neural Network (Keras/TensorFlow) with Hyperparameter Tuning  
+- **Model Optimization**: Keras Tuner Hyperband, Grid Search Cross-Validation  
+- **Model Evaluation**: Accuracy, Precision, Recall, F1-score, ROC Curve, AUC  
+- **Visualization & Reporting**: Matplotlib, Seaborn, Confusion Matrices, ROC plots  
+- **Development Environment**: Jupyter Notebook  
+- **Version Control & Collaboration**: GitHub  
+
+---
+
 ## Load Data
 The dataset is imported using pandas and inspected for structure and data types. Core libraries include pandas for handling tabular data, numpy for numerical operations, and matplotlib for future visualizations. The initial step ensures the telemarketing dataset from the UCI repository is correctly loaded and ready for preprocessing.
 
