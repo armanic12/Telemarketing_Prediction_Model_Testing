@@ -1,4 +1,4 @@
-# Telemarketing Campaign Response Prediction
+# Telemarketing Campaign Response Prediction Modeling
 
 This project builds, optimizes, and evaluates predictive models to determine whether a prospective customer will respond positively to a telemarketing campaign.  
 
